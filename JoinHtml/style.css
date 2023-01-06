@@ -1,0 +1,14 @@
+.header {
+  height: 40px;
+}
+
+.sidebar {
+  min-height: 600px;
+}
+.content {
+  min-height: 600px;
+}
+
+.footer {
+  height: 100px;
+}
