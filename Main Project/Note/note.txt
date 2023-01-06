@@ -1,0 +1,38 @@
+Bootstrap 5 features
+====================
+-> support Internet Explorer
+-> It has own icon system
+-> new themes color
+-> new typography
+-> no jquery required
+-> new css custom properties
+-> brand new logo
+
+<div class='container'></div> // fixed width
+<div class='container-fluid'></div>  // fulll width
+
+---------------------------------------------------------------
+
+size
+====
+small - 540px
+medium - 720px
+large - 960px
+extra large = 1140px
+---------------------------------------------------------------
+Grid
+=====
+- consist of row and columns
+- Design layout, templates of the websites
+- bootstrap grid allows upto 12 columns in the row
+
+-----------------------------------------------------------------
+screen sizes / resolution
+=========================
+- xs = extra small
+- sm
+- md 
+- lg 
+- xl 
+- xxl - 1400px // bootstrap 5 support
+--------------------------------------------------------------------
