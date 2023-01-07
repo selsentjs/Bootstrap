@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -33,11 +37,14 @@
     tabindex="0"
   >
     <!-- first create navbar and second create background image -->
-    <img class="bg-img" src="/image/img1.jpg" alt="background image" />
+
     <!------------------------------------- start home section ------------------------------------->
     <div id="#home">
       <!-- navigation starts -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav
+        id="navbarResponse"
+        class="navbar navbar-expand-lg navbar-dark fixed-top"
+      >
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="../image/logo.jpg" />LOGO
@@ -85,7 +92,9 @@
       <!-- Start landing page section (background image) -->
       <div class="landing">
         <div class="home-wrap">
-          <div class="home-inner"></div>
+          <div class="home-inner">
+            <!--background image in css -->
+          </div>
         </div>
       </div>
       <div class="caption text-center">
@@ -98,11 +107,78 @@
     <!---------------------------------- End home section  ---------------------------------->
 
     <!----------------------------------- start course section ------------------------------>
-    <div id="#course" class="offset"></div>
+    <div id="#course" class="offset">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 narrow text-center">
+            <h1>Advanced Bootstrap Course</h1>
+            <p>
+              Learn Bootstrap by creating an advanced Bootstrap 5 Responsive
+              website Template from scratch, with no steps skipped
+            </p>
+            <a class="btn btn-secondary btn-md" href="#" target="_blank"
+              >50% off coupon</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <!----------------------------------- End course section  ----------------------------------->
 
     <!----------------------------------- start features section ----------------------------------->
-    <div id="#features" class="offset"></div>
+    <div id="#features" class="offset">
+      <!-- start jumbotron-->
+      <div class="p-5 bg-secondary text-white">
+        <div class="narrow">
+          <div class="col-12">
+            <h3 class="heading text-center mb-2 text-dark">Feature</h3>
+            <div class="heading-underline mb-5"></div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="feature mb-2">
+                <i class="bi-globe"></i>
+              </div>
+              <h1>Custom Animation</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora vitae nesciunt iste quas? Eaque blanditiis incidunt eos
+                perspiciatis nostrum, amet asperiores dignissimos quaerat hic
+                molestias iste similique harum temporibus labore!
+              </p>
+            </div>
+            <!-- second -->
+            <div class="col-md-4">
+              <div class="feature mb-2">
+                <i class="bi-globe"></i>
+              </div>
+              <h1>Custom Animation</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora vitae nesciunt iste quas? Eaque blanditiis incidunt eos
+                perspiciatis nostrum, amet asperiores dignissimos quaerat hic
+                molestias iste similique harum temporibus labore!
+              </p>
+            </div>
+            <!-- third-->
+            <div class="col-md-4">
+              <div class="feature mb-2">
+                <i class="bi-globe"></i>
+              </div>
+              <h1>Custom Animation</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora vitae nesciunt iste quas? Eaque blanditiis incidunt eos
+                perspiciatis nostrum, amet asperiores dignissimos quaerat hic
+                molestias iste similique harum temporibus labore!
+              </p>
+            </div>
+          </div>
+          <!--row end-->
+        </div>
+      </div>
+      <!-- End jumbotron-->
+    </div>
     <!----------------------------------- End features section  ----------------------------------->
 
     <!----------------------------------- start resources section ----------------------------------->
@@ -116,6 +192,5 @@
     <!----------------------------------- start contact section ----------------------------------->
     <div id="#contact" class="offset"></div>
     <!----------------------------------- End contact section  ----------------------------------->
-  
   </body>
 </html>

@@ -6,6 +6,11 @@ body {
   font-family: "Lato", sans-serif;
   color: #505962;
 }
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+}
 
 /* navigation */
 .navbar {
@@ -33,15 +38,22 @@ body {
 }
 
 /* landing page*/
-.bg-img {
+/* .bg-img {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
   filter: brightness(0.7);
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; */
+  z-index: -1; 
+} */
+
+.home-inner {
+  position: relative;
+  background: url(/image/img1.jpg);
+  min-height: 100vh;
+  background-size: cover;
 }
 
 .caption {
@@ -69,4 +81,40 @@ body {
   border-radius: 0;
   padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
+}
+
+/* course */
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+  font-size: 2.4rem;
+}
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #1ebba3;
+}
+.btn-secondary:hover {
+  background-color: #189582;
+  border-color: #189582;
+}
+/* features */
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #1ebba3;
+  margin: 0 auto;
 }
