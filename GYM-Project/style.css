@@ -74,9 +74,26 @@
   color: white;
   padding-bottom: 1rem;
 }
-p {
+.top-text p {
   color: white;
   letter-spacing: 0.125rem;
   line-height: 1.3rem;
   padding-bottom: 1rem;
+}
+
+/* about image */
+.about-image {
+  width: 40rem;
+  height: 25rem;
+}
+
+.about-text p {
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+
+}
+
+.card-img-top {
+    height:20rem;
+ 
 }
